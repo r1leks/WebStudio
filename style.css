@@ -1,25 +1,18 @@
 :root{
     /* 1 ст */
-    --header: #FFFFFF;
     --header-Studio: #000;
     --header-web: #2196F3;
-    --nav-studio: #2196F3;
-    --nav-finger: #000000;
+    --nav-studio: #000000;
+    
     --nav: #212121;
-    --nav-gmail: #2196F3;
     --nav-number: #757575;
     /* це там де h1 і кнопка */
     --main: #2F303A;
     --main-h1: #FFFFFF;
-    --main-button: #2196F3;
     --li-h2: #212121;
     --li-p: #757575;
     --footer-background: #2F303A;
-    --foter-adres: #FFFFFF;
     /* 2 ст */
-    --main-1-button: #2196F3;
-    --button-1-p: #FFFFFF;
     --button: #F5F4FA;
-    --button-p: #212121;
     
 }
