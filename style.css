@@ -1,6 +1,5 @@
 :root{
     /* 1 ст */
-    --header-Studio: #000;
     --header-web: #2196F3;
     --nav-studio: #000000;
     
@@ -8,11 +7,58 @@
     --nav-number: #757575;
     /* це там де h1 і кнопка */
     --main: #2F303A;
-    --main-h1: #FFFFFF;
+    --main-title: #FFFFFF;
     --li-h2: #212121;
     --li-p: #757575;
     --footer-background: #2F303A;
     /* 2 ст */
     --button: #F5F4FA;
     
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,p{
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--header-web);
+}
+.black{
+    color: var(--nav-studio);
+}
+
+.navigation{
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+.site-nav-link{
+    color: var(--nav);
+}
+.contact-link{
+    color: var(--nav-number);
+}
+.contacts{
+    font-size: 14px;
+    font-weight: 500;
 }
