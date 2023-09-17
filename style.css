@@ -61,8 +61,19 @@ a{
 .contacts{
     font-size: 14px;
     font-weight: 500;
-<<<<<<< HEAD
 }
-=======
+                                                                                                                                                     /* font-family: 'Roboto',sans-serif; */
+                                                                                                                                                     /* font-family: 'Raleway',sans-serif; */
+.button-posluga{
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    width: 216px;
+    height: 50px;
+    flex-shrink: 0;
+    border: 1px;
 }
->>>>>>> af2b0290a95e993af5b6ad3bdf7d43c5f766b231
+
