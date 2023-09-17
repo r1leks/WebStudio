@@ -64,6 +64,13 @@ a{
 }
                                                                                                                                                      /* font-family: 'Roboto',sans-serif; */
                                                                                                                                                      /* font-family: 'Raleway',sans-serif; */
+.h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    text-align: center;
+
+}
 .button-posluga{
     font-size: 16px;
     font-weight: 700;
@@ -77,3 +84,75 @@ a{
     border: 1px;
 }
 
+.p-li{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--li-p);
+    font-family: 'Roboto', sans-serif;
+}
+.h2-li{
+    color: var(--li-h2);
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.h2-img{
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.h2-we{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+.opus-h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 599;
+    color: var(--li-h2);
+}
+
+.opus-p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--li-p);
+}
+
+.WebStudio-a{
+   color: var(--header-web);
+   font-size: 26px;
+   font-weight: 700;
+
+}
+
+.white{
+    color: #FFFFFF;
+}
+footer{
+    background-color: var(--footer-background);
+}
+
+.p-footer{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.a-number{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.a-gmail{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.60);
+}
