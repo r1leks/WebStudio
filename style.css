@@ -56,6 +56,14 @@ a{
     color: var(--nav);
     font-weight: 500;
 }
+
+.site-nav-item{
+    font-weight: 500;
+
+}
+
+
+
 .contact-link{
     color: var(--nav-number);
 }
@@ -156,4 +164,15 @@ footer{
     font-size: 16px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.60);
+}
+
+.box-item{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1px;
+}
+.box-ul{
+    font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 1px;
 }
