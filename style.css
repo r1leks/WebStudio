@@ -176,3 +176,24 @@ footer{
         font-weight: 500;
         font-size: 1px;
 }
+
+.main-button{
+    width: 125px;
+    height: 38px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.container-h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--li-h2);
+}
+
+.container-p{
+    font-family: 'Roboto', sans-serif;
+    color: var(--li-p);
+    font-size: 16px;
+    font-weight: 400;
+}
