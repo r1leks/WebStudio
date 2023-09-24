@@ -54,6 +54,7 @@ a{
 }
 .site-nav-link{
     color: var(--nav);
+    font-weight: 500;
 }
 .contact-link{
     color: var(--nav-number);
