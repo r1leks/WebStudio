@@ -91,30 +91,31 @@ a{
     font-weight: 700;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
 }
 
-.h2-img{
+.team-img{
     color: #212121;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
 }
 
-.h2-we{
+.h2-teams{
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-weight: 700;
 
 }
 
-.opus-h3{
+.teams-h3{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 599;
     color: var(--li-h2);
 }
 
-.opus-p{
+.teams-p{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -125,7 +126,7 @@ a{
    color: var(--header-web);
    font-size: 26px;
    font-weight: 700;
-
+   font-family: 'Raleway', sans-serif;
 }
 
 .white{
@@ -139,18 +140,21 @@ footer{
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 400;
+    font-family: 'Roboto', sans-serif;
 }
 
 .a-number{
     font-size: 16px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.60);
+    
 }
 
 .a-gmail{
     font-size: 16px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.60);
+    
 }
 
 .box-item{
@@ -184,3 +188,4 @@ footer{
     font-size: 16px;
     font-weight: 400;
 }
+ 
