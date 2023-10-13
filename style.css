@@ -25,6 +25,8 @@ body{
     padding: 0 15px;
 }
 
+
+
 .header{
     padding-top: 24px;
     padding-bottom: 25px;
@@ -35,11 +37,15 @@ a{
 
 }
 
+
+
 .logo{
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
     color: var(--header-web);
+    margin-right: 93px;
+
 }
 .black{
     color: var(--nav-studio);
@@ -50,9 +56,28 @@ a{
     font-weight: 500;
     
 }
+
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.site-nav{
+    width: 281px;
+    display: flex;
+    justify-content: space-between;
+}
 .site-nav-link{
     color: var(--nav);
     font-weight: 500;
+    font-size: 14px;
+    margin-right: 93px;
 }
 
 .site-nav-item{
@@ -68,10 +93,18 @@ a{
 .contacts{
     font-size: 14px;
     font-weight: 500;
+    display: flex;
+
 }
 
-                                                                                                                                                     /* font-family: 'Roboto',sans-serif; */
-                                                                                                                                                     /* font-family: 'Raleway',sans-serif; */
+.gmail{
+    margin-right: 50px;
+    font-weight: 900;
+    color: var(--li-p);
+}
+
+/* font-family: 'Roboto',sans-serif; */
+/* font-family: 'Raleway',sans-serif; */
 .h1{
     font-family: 'Roboto', sans-serif;
     font-weight: 900px;
@@ -131,11 +164,31 @@ a{
     margin-bottom: 10px;
 }
 
+.li{
+    width: 270px;
+
+}
+
+.attention-ul{
+    display: flex;
+    justify-content: space-between;
+}
+
 .team{
     padding-bottom: 94px;
 }
 
+.team-ul{
+    display: flex;
+    justify-content: space-between;
+}
+
 .team-img{
+    width: 370px;
+    height: 294px;
+}
+
+.team-title{
     color: #212121;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -148,17 +201,36 @@ a{
     padding-bottom: 94px;
     padding-top: 94px;
     background-color: var(--button);
+
 }
+
+.teams-ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.teams-img{
+    width: 270px;
+    height: 268px;
+    margin-bottom: 30px;
+}
+
 
 .h2-teams{
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-weight: 700;
+    text-align: center;
 
 }
 .teams-item{
     background-color: var(--main-title);
-    width: 810px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
 
 }
 
@@ -167,6 +239,7 @@ a{
     font-size: 16px;
     font-weight: 600;
     color: var(--li-h2);
+    margin-bottom: 10px;
 }
 
 .teams-p{
@@ -190,6 +263,7 @@ footer{
     background-color: var(--footer-background);
     padding-top: 60px;
     padding-bottom: 60px;
+    
 }
 
 .p-footer{
