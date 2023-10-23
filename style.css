@@ -313,10 +313,13 @@ footer{
 }
 
 .section-list{
-    margin-left: 30px;
     display: flex;
     flex-wrap: wrap;
-    margin: ;
+    gap: 30px;
+}
+
+.section-item{
+    margin-top:30px;
 }
 
 
