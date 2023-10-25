@@ -13,6 +13,7 @@
     --footer-background: #2F303A;
     /* 2 ст */
     --button: #F5F4FA;
+    --border-color: #EEE;
     
 }
 body{
@@ -25,7 +26,10 @@ body{
     padding: 0 15px;
 }
 
-
+.footer-container{
+    display: flex;
+    flex-direction: column;
+}
 
 .header{
     padding-top: 24px;
@@ -60,6 +64,7 @@ a{
 .header-wrap{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 }
 
@@ -129,7 +134,7 @@ a{
     background-color: var(--main);
     padding-top: 200px;
     padding-bottom: 200px;
-    cursor: pointer;
+    
 }
 
 .button-posluga{
@@ -145,7 +150,7 @@ a{
     border: none;
     padding: 10px 32px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-
+    cursor: pointer;
 }
 
 .button-wrap{
@@ -240,7 +245,7 @@ a{
     flex-direction: column;
     align-items: center;
     padding-bottom: 30px;
-
+    border-radius: 0px 0px 4px 4px;
 }
 
 .teams-h3{
@@ -263,6 +268,7 @@ a{
    font-size: 26px;
    font-weight: 700;
    font-family: 'Raleway', sans-serif;
+   margin-bottom: 20px;
 }
 
 .white{
@@ -280,20 +286,22 @@ footer{
     font-size: 14px;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .a-number{
     font-size: 16px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.60);
-    
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .a-gmail{
     font-size: 16px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.60);
-    
 }
 
 .box-item{
@@ -301,7 +309,6 @@ footer{
     font-weight: 500;
     font-size: 1px;
     margin-right: 8px;
-
 }
 
 
@@ -315,22 +322,55 @@ footer{
 }
 
 .main-button{
-    width: 125px;
-    height: 38px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    color: var(--nav);
+}
+
+.main-button:nth-child(1){
+    padding: 6px 25px 6px 25px;
+}
+
+.main-button:nth-child(2){
+    padding: 6px 22px 6px 22px;
+}
+
+.main-button:nth-child(3){
+    padding: 6px 22px 6px 22px;
+}
+
+.main-button:nth-child(4){
+    padding: 6px 22px 6px 22px;
+}
+
+.main-button:nth-child(5){
+    padding: 6px 22px 6px 22px;
+}
+
+.main-button:hover{
+    background-color: var(--header-web);
+    color: var(--main-title);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .section-list{
-    margin-left: 30px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: 30px;
 }
 
-.section-item{
-    margin-top:30px;
+.container-main{
+    padding: 20px 24px 20px 24px;
+}
 
+.section-item{
+    border: 1px solid var(--border-color);
+    width: 370px;
 }
 
 
@@ -340,8 +380,8 @@ footer{
     font-weight: 700;
     font-size: 18px;
     color: var(--li-h2);
-    margin-top: 20px;
     margin-bottom: 4px;
+ 
 }
 
 .container-p{
@@ -349,6 +389,7 @@ footer{
     color: var(--li-p);
     font-size: 16px;
     font-weight: 400;
+   
 }
 
 
