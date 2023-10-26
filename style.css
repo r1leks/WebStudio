@@ -371,6 +371,7 @@ footer{
 .section-item{
     border: 1px solid var(--border-color);
     width: 370px;
+    margin-top: 50px;
 }
 
 
