@@ -191,22 +191,22 @@ a{
     height: 120px;
     background-color: var(--button);
     border-radius: 4px;
-    background-image: url(./img/antenna.png);
+    background-image: url(./img/antenna.webp);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .li:nth-child(2)::before{
-   background-image: url(./img/clock\ .png);
+   background-image: url(./img/clock\ .webp);
 }
 
 .li:nth-child(3)::before{
-  background-image: url(./img/diagram.png);
+  background-image: url(./img/diagrama.webp)
 }
 
 .li:nth-child(4)::before{
-    background-image: url(./img/astronaut.png);
+    background-image: url(./img/astronaut.webp)
 }
 
 .attention-ul{
@@ -377,12 +377,15 @@ footer{
     padding: 6px 22px 6px 22px;
 }
 
-.main-button:hover{
+.main-button:hover,
+.main-button:focus{
+
     background-color: var(--header-web);
     color: var(--main-title);
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .section-list{
@@ -404,7 +407,8 @@ footer{
     
 }
 
-.section-item:hover{
+.section-item:hover,
+.section-item:focus{
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
