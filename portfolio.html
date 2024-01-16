@@ -1,154 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-      <header class="header">
-        <!-- верхня сторінка -->
-    <div class="container header-wrap">
-
-      <div class="nav-wrap">
-        <a class="logo" href="#">Web<span class="black">Studio</span></a>
-        <nav class="navigation">
-           <ul class="site-nav">
-             <li class="site-nav-item">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-wrap">
+        <div class="nav-wrap">
+          <a class="logo" href="#">Web<span class="black">Studio</span></a>
+          <nav class="navigation">
+            <ul class="site-nav">
+              <li class="site-nav-item">
                 <a class="site-nav-link" href="index.html">Студія</a>
-             </li>
-             <li class="site-nav-item">
+              </li>
+              <li class="site-nav-item">
                 <a class="site-nav-link" href="portfolio.html">Портфоліо</a>
-             </li>
-             <li class="site-nav-item">
+              </li>
+              <li class="site-nav-item">
                 <a class="site-nav-link" href="#">Контакти</a>
-             </li>
-            
-           </ul>
-
-        </nav>
-      </div>  
-         <ul class="contacts">
-            <li class="contacts-item gmail">
-        <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-           </li>
-           <li class="contacts-item">
-        <a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <ul class="contacts">
+          <li class="contacts-item gmail">
+            <a class="contact-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts-item">
+            <a class="contact-link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </div>
     </header>
 
-<main class="main">
-    <section class="section-main">
-        <div class="container">
-        <div class="box">
-          <ul class="box-list">
-             <li class="box-item">
-                <button class="main-button">усі</button>
+    <main>
+      <section class="portfolio">
+        <div class="container portfolio-wrap">
+            <h1 hidden>Portfolio</h1>
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="filter-button">Усі</button>
             </li>
-             <li class="box-item">
-                <button class="main-button">Веб-сайти</button>
+            <li class="filter-item">
+              <button class="filter-button">Веб-сайти</button>
             </li>
-             <li class="box-item">
-                <button class="main-button">Додатки</button>
+            <li class="filter-item">
+              <button class="filter-button">Додатки</button>
             </li>
-             <li class="box-item">
-                <button class="main-button">Дизайн</button>
+            <li class="filter-item">
+              <button class="filter-button">Дизайн</button>
             </li>
-             <li class="box-item">
-                <button class="main-button">Маркетинг</button>
+            <li class="filter-item">
+              <button class="filter-button">Маркетинг</button>
             </li>
           </ul>
-          
-             <ul class="section-list">
-            <li class="section-item">
-                <img class="section-img" src="img/portfolio.webp" alt="">
-                <div class="container-main">
-                    <h2 class="container-h2">Технокряк</h2>
-                    <p class="container-p">веб сайт</p>
-                </div>
-            </li>
-            <li class="section-item">
-                <img class="section-img" src="img/portfolio2.webp" alt="">
-                <div class="container-main">
-                    <h2 class="container-h2">Постер new orleea vs golden star</h2>
-                    <p class="container-p">Дизайн</p>
-                </div>
-            </li>
-            <li class="section-item">
-                <img class="section-img" src="img/portfolio_1.webp" alt="">
-                <div class="container-main">
-                    <h2 class="container-h2">ресторан Seafood</h2>
-                    <p class="container-p">додаток</p>
-                </div>
-            </li>
-            <li class="section-item">
-                <img class="section-img" src="img/portfolio_2.webp" alt="">
-                <div class="container-main">
-                    <h2 class="container-h2">проект Prime</h2>
-                    <p class="container-p">маркетинг</p>
-                </div>
-            </li>
-            <li class="section-item">
-                <img class="section-img" src="img/portfolio_4.webp" alt="">
-                <div class="container-main">
-                    <h2 class="container-h2"> проект Boxes </h2>
-                    <p class="container-p">додаток</p>
-                </div>
-            </li>
-            <li class="section-item">
-                <img class="section-img" src="img/portfolio_5.webp" alt="">
-                <div class="container-main">
-                    <h2 class="container-h2"> Inspiration has no Borders </h2>
-                    <p class="container-p"> веб сайт</p>
-                </div>
-            </li>
-            <li class="section-item">
-                <img class="section-img" src="img/portfolio_6.webp" alt="">
-                <div class="container-main">
-                    <h2 class="container-h2"> Видання Limited Edition </h2>
-                    <p class="container-p">Дизайн</p>
-                </div>
-            </li>
-            <li class="section-item">
-                <img class="section-img" src="img/portfolio_7.webp" alt="">
-                <div class="container-main">
-                    <h2 class="container-h2">Growing Business</h2>
-                    <p class="container-p">Маркетинг</p>
-                </div>
-            </li>
-            <li class="section-item">
-                <img class="section-img" src="img/portfolio8.webp" alt="">
-                <div class="container-main">
-                    <h2 class="container-h2">Growing Business</h2>
-                    <p class="container-p">Додаток</p>
-                </div>
-            </li>
-        </ul>
 
+          <ul class="portfolio-list">
+            <li class="portfolio-item">
+              <img class="portfolio-img" src="img/portfolio.webp" alt="" />
+              <div class="portfolio-box">
+                <h2 class="portfolio-title">Технокряк</h2>
+                <p class="portfolio-text">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img class="portfolio-img" src="img/portfolio2.webp" alt="" />
+              <div class="portfolio-box">
+                <h2 class="portfolio-title">
+                  Постер new orleea vs golden star
+                </h2>
+                <p class="portfolio-text">Дизайн</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img class="portfolio-img" src="img/portfolio_1.webp" alt="" />
+              <div class="portfolio-box">
+                <h2 class="portfolio-title">Ресторан Seafood</h2>
+                <p class="portfolio-text">Додаток</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img class="portfolio-img" src="img/portfolio_2.webp" alt="" />
+              <div class="portfolio-box">
+                <h2 class="portfolio-title">Проект Prime</h2>
+                <p class="portfolio-text">Маркетинг</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img class="portfolio-img" src="img/portfolio_4.webp" alt="" />
+              <div class="portfolio-box">
+                <h2 class="portfolio-title">Проект Boxes</h2>
+                <p class="portfolio-text">Додаток</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img class="portfolio-img" src="img/portfolio_5.webp" alt="" />
+              <div class="portfolio-box">
+                <h2 class="portfolio-title">Inspiration has no Borders</h2>
+                <p class="portfolio-text">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img class="portfolio-img" src="img/portfolio_6.webp" alt="" />
+              <div class="portfolio-box">
+                <h2 class="portfolio-title">Видання Limited Edition</h2>
+                <p class="portfolio-text">Дизайн</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img class="portfolio-img" src="img/portfolio_7.webp" alt="" />
+              <div class="portfolio-box">
+                <h2 class="portfolio-title">Growing Business</h2>
+                <p class="portfolio-text">Маркетинг</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img class="portfolio-img" src="img/portfolio8.webp" alt="" />
+              <div class="portfolio-box">
+                <h2 class="portfolio-title">Growing Business</h2>
+                <p class="portfolio-text">Додаток</p>
+              </div>
+            </li>
+          </ul>
         </div>
-    </div>
-    </section>
+      </section>
+    </main>
 
-    
-
- </main>
-
- <footer class="footer">
+    <footer class="footer">
       <div class="container footer-container">
-            <a class="footer-a" href="#">Web<span class="white">Studio</span> </a>
-            <p class="p-footer">м. Київ, пр-т Лесі Українки, 26</p>
-            <a class="a-gmail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="a-number" href="tel:+380961111111">+38 096 111 11 11</a>
-       </div>     
+        <a class="footer-link" href="#"
+          >Web<span class="white">Studio</span>
+        </a>
+        <p class="footer-address">м. Київ, пр-т Лесі Українки, 26</p>
+        <a class="footer-mail" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+        <a class="footer-number" href="tel:+380961111111">+38 096 111 11 11</a>
+      </div>
     </footer>
-        
-</body>
+  </body>
 </html>
