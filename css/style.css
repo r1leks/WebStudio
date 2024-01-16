@@ -65,6 +65,20 @@
   color: var(--header-web);
 }
 
+.contacts .contact-link:hover{
+  color: var(--header-web);
+}
+
+.contact-link:hover .contact-icon{
+  fill: var(--header-web);
+}
+
+
+
+.contact-icon{
+  margin-right: 10px;
+}
+
 .site-nav-link {
   color: var(--nav);
   font-weight: 500;
@@ -78,6 +92,8 @@
 
 .contact-link {
   color: var(--nav-number);
+  display: flex;
+  align-items: center;
 }
 .contacts {
   font-size: 14px;
@@ -102,11 +118,28 @@
   margin-bottom: 30px;
 }
 
+.social-icon{
+  width: 20px;
+  height: 20px;
+}
+
+.social-list{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 32px;
+  margin-left: 32px;
+  margin-top: 16px;
+}
+
+.social-link{
+  fill: var(--li-p);
+}
+
 .post {
   background-color: var(--main);
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url(./img/bg.png);
+  background-image: url(../img/bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -157,6 +190,21 @@
   margin-top: 30px;
 }
 
+.clients-title{
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+  margin-top: 94px;
+}
+
+.clients-list{
+  display: flex;
+  
+}
+
 .benefits-item {
   width: 270px;
 }
@@ -168,22 +216,22 @@
   height: 120px;
   background-color: var(--button);
   border-radius: 4px;
-  background-image: url(./img/antenna.webp);
+  background-image: url(../img/antenna.webp);
   background-size: 70px;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .benefits-item:nth-child(2)::before {
-  background-image: url(./img/clock.webp);
+  background-image: url(../img/clock.webp);
 }
 
 .benefits-item:nth-child(3)::before {
-  background-image: url(./img/diagrama.webp);
+  background-image: url(../img/diagrama.webp);
 }
 
 .benefits-item:nth-child(4)::before {
-  background-image: url(./img/astronaut.webp);
+  background-image: url(../img/astronaut.webp);
 }
 
 .benefits-list {
@@ -258,6 +306,11 @@
   font-size: 16px;
   font-weight: 400;
   color: var(--li-p);
+  
+}
+
+.div-wrap{
+  text-align: center;
 }
 
 /* Footer */
@@ -391,3 +444,5 @@ footer {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+

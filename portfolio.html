@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -18,7 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
@@ -41,14 +41,22 @@
         </div>
         <ul class="contacts">
           <li class="contacts-item gmail">
-            <a class="contact-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+            <a class="contact-link" href="mailto:info@devstudio.com">
+              <svg class="contact-icon" width="16" height="12">
+                <use href="./css/symbol-defs.svg#icon-email">
+
+                </use>
+              </svg>
+              info@devstudio.com</a>
           </li>
           <li class="contacts-item">
-            <a class="contact-link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
+            <a class="contact-link" href="tel:+380961111111">
+              <svg class="contact-icon" width="16" height="12">
+                <use href="./css/symbol-defs.svg#icon-phone">
+
+                </use>
+              </svg>
+              +38 096 111 11 11</a>
           </li>
         </ul>
       </div>
