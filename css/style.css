@@ -295,14 +295,37 @@
   padding-bottom: 94px;
 }
 
+.work-item{
+  position: relative;
+}
+
 .work-list {
   display: flex;
   justify-content: space-between;
 }
 
+
+
 .work-img {
   width: 370px;
   height: 294px;
+}
+
+.work-subtitle{
+   position: absolute;
+   bottom: 3.5px;
+   color: var(--main-title);
+   text-align: center;
+   font-family: 'Roboto' , sans-serif;
+   font-size: 14px;
+   font-weight: 700;
+   letter-spacing: 0.42px;   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 70px;
+   width: 100%;
+   background-color: rgba(47, 48, 58, 0.80);   ;
 }
 
 .title {
